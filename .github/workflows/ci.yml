@@ -32,4 +32,6 @@ jobs:
         run: uv sync --all-extras --dev
 
       - name: Run Pytest
+        env:
+          OPENAI_API_KEY: "dummy_key"
         run: uv run pytest tests/
