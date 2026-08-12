@@ -70,3 +70,6 @@ This repository uses GitHub Actions for continuous integration. On every push an
 1. Setup Python and `uv`.
 2. Install all dependencies.
 3. Run the unit tests suite with `pytest`.
+
+---
+*Developed as a portfolio project to demonstrate RAG concepts and modern software engineering practices.*
