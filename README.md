@@ -64,7 +64,7 @@ This is an end-to-end RAG system built with FastAPI, Streamlit, ChromaDB, and Op
     uv run streamlit run frontend/app.py
     ```
 
-## CI/CD Pipeline
+## CI Pipeline
 
 This repository uses GitHub Actions for continuous integration. On every push and pull request to the `main` branch, the pipeline will:
 1. Setup Python and `uv`.
